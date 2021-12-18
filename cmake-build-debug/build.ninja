@@ -78,6 +78,18 @@ build CMakeFiles/Pacman_CR.dir/main.cpp.o: CXX_COMPILER__Pacman_CR_Debug /home/z
   OBJECT_DIR = CMakeFiles/Pacman_CR.dir
   OBJECT_FILE_DIR = CMakeFiles/Pacman_CR.dir
 
+build CMakeFiles/Pacman_CR.dir/Game.cpp.o: CXX_COMPILER__Pacman_CR_Debug /home/zuckerberg/CLionProjects/Pacman-CR/Game.cpp || cmake_object_order_depends_target_Pacman_CR
+  DEP_FILE = CMakeFiles/Pacman_CR.dir/Game.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Pacman_CR.dir
+  OBJECT_FILE_DIR = CMakeFiles/Pacman_CR.dir
+
+build CMakeFiles/Pacman_CR.dir/GameState.cpp.o: CXX_COMPILER__Pacman_CR_Debug /home/zuckerberg/CLionProjects/Pacman-CR/GameState.cpp || cmake_object_order_depends_target_Pacman_CR
+  DEP_FILE = CMakeFiles/Pacman_CR.dir/GameState.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Pacman_CR.dir
+  OBJECT_FILE_DIR = CMakeFiles/Pacman_CR.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Pacman_CR
@@ -86,7 +98,7 @@ build CMakeFiles/Pacman_CR.dir/main.cpp.o: CXX_COMPILER__Pacman_CR_Debug /home/z
 #############################################
 # Link the executable ../bin/Pacman_CR
 
-build ../bin/Pacman_CR: CXX_EXECUTABLE_LINKER__Pacman_CR_Debug CMakeFiles/Pacman_CR.dir/main.cpp.o | /usr/lib/x86_64-linux-gnu/libsfml-system.so /usr/lib/x86_64-linux-gnu/libsfml-window.so /usr/lib/x86_64-linux-gnu/libsfml-graphics.so /usr/lib/x86_64-linux-gnu/libsfml-network.so /usr/lib/x86_64-linux-gnu/libsfml-audio.so
+build ../bin/Pacman_CR: CXX_EXECUTABLE_LINKER__Pacman_CR_Debug CMakeFiles/Pacman_CR.dir/main.cpp.o CMakeFiles/Pacman_CR.dir/Game.cpp.o CMakeFiles/Pacman_CR.dir/GameState.cpp.o | /usr/lib/x86_64-linux-gnu/libsfml-system.so /usr/lib/x86_64-linux-gnu/libsfml-window.so /usr/lib/x86_64-linux-gnu/libsfml-graphics.so /usr/lib/x86_64-linux-gnu/libsfml-network.so /usr/lib/x86_64-linux-gnu/libsfml-audio.so
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libsfml-system.so  /usr/lib/x86_64-linux-gnu/libsfml-window.so  /usr/lib/x86_64-linux-gnu/libsfml-graphics.so  /usr/lib/x86_64-linux-gnu/libsfml-network.so  /usr/lib/x86_64-linux-gnu/libsfml-audio.so
   OBJECT_DIR = CMakeFiles/Pacman_CR.dir

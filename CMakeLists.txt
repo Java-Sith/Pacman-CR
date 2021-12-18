@@ -3,7 +3,7 @@ project(Pacman_CR)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Game.cpp Game.h GameState.cpp GameState.h)
 
 set(EXECUTABLE_NAME "Pacman_CR")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
